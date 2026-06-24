@@ -141,11 +141,31 @@ body{
 /* Responsive */
 
 @media(max-width:768px){
-
+     .menu-toggle{
+        display: none;
+     }
     .heading{
+        margin-top: 10px;
         font-size:40px;
     }
+     .nav-links{
+        display:row;
+        width:100%;
+        text-align:justify;
+        margin-top:10px;
+    }
+  
+    .nav-links.active{
+         display:table-row;
+    }
+    
+     
 
+    .nav-container{
+        flex-direction:column;
+        height:auto;
+        padding:15px;
+    }
     .edu-card{
         padding:30px;
     }
